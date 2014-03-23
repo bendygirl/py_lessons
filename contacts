@@ -1,0 +1,20 @@
+#contacts
+
+contacts = {
+  'Shannon': {'phone': '202-555-1234',
+  'twitter': '@svt827', 'github':
+  '@shannonturner' },
+  'Anupama': {'phone': '410-333-9876',
+  'twitter': '@iamtheanupama', 'github':
+  '@apillalamarri'},
+  'Kirsten': {'phone': '202-111-2222',
+  'twitter': '@uniongal', 'github':
+  '@bendygirl'}
+}
+
+for contact in sorted(contacts.keys()):
+	print contact
+	print contacts[contact]['phone']
+	print contacts[contact]['twitter']
+	print contacts[contact]['github']
+
