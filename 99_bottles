@@ -1,0 +1,11 @@
+beer = 99
+while beer >= 1:
+  print str(beer) + " bottles of beer on the wall, "
+  print str(beer) + " bottles of beer."
+  print "Take one down and pass it around..."
+  beer = beer - 1
+print "All Gone :(" 
+
+
+
+   
