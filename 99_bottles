@@ -6,6 +6,12 @@ while beer >= 1:
   beer = beer - 1
 print "All Gone :(" 
 
+##this is my attempt at another loop for this, and it's fewer lines!
 
+beer = 99
+while beer >=1: 
+    print "bottles of beer on the wall, {0} bottles of beer on the wall. If one of those bottles should happen to fall {0} bottles of beer on the wall".format(beer)
+    beer = beer - 1
+print "All gone! :("
 
    
